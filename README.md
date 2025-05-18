@@ -2,7 +2,8 @@
 
 Welcome to the **Word Scramble** game – a fun, interactive, and visually engaging word puzzle app built using **Flutter**. This game challenges users to guess the correct word from scrambled letters based on a visual or textual clue.
 
-![WORD SCRAMBLE](https://github.com/user-attachments/assets/a3a47d6b-92ab-4376-a08e-71affe0f5df4)
+![WORD SCRAMBLE](https://github.com/user-attachments/assets/50524417-528f-4b67-a125-01cafade5627)
+
 
 
 
