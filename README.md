@@ -8,7 +8,7 @@ Welcome to the **Word Scramble** game – a fun, interactive, and visually engag
 
 - ✨ Beautiful and colorful UI
 - 🔀 Randomly generated word scrambles
-- 🖼️ Clue-based questions (text/image support)
+- 🖼️ Clue-based questions 
 - ✅ Instant answer validation with success/failure feedback
 - 📈 Score tracking
 - 🎉 "You Win" screen when all levels are completed
