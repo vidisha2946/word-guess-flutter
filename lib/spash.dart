@@ -42,13 +42,10 @@ class _SplashScreenState extends State<SplashScreen> {
       body: Stack(
         fit: StackFit.expand,
         children: [
-          // Full-screen splash image
           Image.asset(
             'assets/splash.png',
             fit: BoxFit.cover,
           ),
-
-          // Get Started button at the bottom center
           Align(
             alignment: Alignment.bottomCenter,
             child: Padding(
