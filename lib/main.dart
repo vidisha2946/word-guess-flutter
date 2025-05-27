@@ -29,7 +29,6 @@ class _SplashScreenState extends State<SplashScreen>
       body: Stack(
         fit: StackFit.expand,
         children: [
-          // Full-screen splash image
           Image.asset(
             'assets/splash.png',
             fit: BoxFit.cover,
@@ -267,7 +266,6 @@ class _WordScrambleGameState extends State<WordScrambleGame> {
               child: const Text("Show Answer"),
               onPressed: () {
                 Navigator.pop(context);
-                // Show the correct answer, then move to next question
                 showDialog(
                   context: context,
                   builder: (_) => AlertDialog(
@@ -334,15 +332,12 @@ class _WordScrambleGameState extends State<WordScrambleGame> {
       ),
       body: Stack(
         children: [
-          // Background
           Positioned.fill(
             child: Image.asset(
               widget.isDarkMode ? 'assets/bg_dark.jpg' : 'assets/bg_light.jpg',
               fit: BoxFit.cover,
             ),
           ),
-
-          // Game Content with ScrollView
           Center(
             child: Padding(
               padding: const EdgeInsets.all(20),
