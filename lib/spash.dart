@@ -27,7 +27,6 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
-    // Optional: auto-navigate after 20 seconds
     Timer(const Duration(seconds:1), () {
       Navigator.pushReplacement(
         context,
